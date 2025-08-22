@@ -1,0 +1,38 @@
+# CODEOWNERS file for map-sdk-121
+# Global owners - will be requested for all PRs
+* @Armor-test/unit-test @Armor-test/dept-reliability @Armor-test/grp-ui
+
+# Directory ownership
+/lib/ @Armor-test/grp-search @Armor-test/squad-tooling
+/deploy/ @Armor-test/dept-automation @Armor-test/squad-tooling @Armor-test/unit-test
+/components/ @Armor-test/team-research @Armor-test/dept-ui @Armor-test/team-core
+/build/ @Armor-test/team-core @Armor-test/grp-storage @Armor-test/dept-reporting
+/docs/ @Armor-test/squad-database @Armor-test/squad-product
+/api/ @Armor-test/squad-api @Armor-test/unit-cloud
+/utils/ @Armor-test/unit-cloud @Armor-test/squad-qa
+/app/ @Armor-test/squad-ml @Armor-test/squad-frontend
+/styles/ @Armor-test/squad-search @Armor-test/dept-reporting @Armor-test/squad-reporting
+/dist/ @Armor-test/grp-api @Armor-test/dept-security
+/plugins/ @Armor-test/team-notifications @Armor-test/dept-automation
+/hooks/ @Armor-test/squad-cloud @Armor-test/grp-payments
+/static/ @Armor-test/squad-database @Armor-test/dept-api @Armor-test/dept-test
+
+# File type ownership
+*.h @Armor-test/dept-reliability @Armor-test/team-logging @Armor-test/squad-tooling
+*.tf @Armor-test/team-governance @Armor-test/team-reporting @Armor-test/dept-automation
+*.jsx @Armor-test/squad-search @Armor-test/dept-automation
+*.py @Armor-test/squad-apps @Armor-test/dept-reporting
+*.ts @Armor-test/squad-frontend @Armor-test/team-logging @Armor-test/squad-payments
+*.scss @Armor-test/squad-research @Armor-test/squad-database
+*.config @Armor-test/squad-payments @Armor-test/grp-search
+*.yml @Armor-test/grp-ui @Armor-test/dept-logging @Armor-test/team-reporting
+*.json @Armor-test/squad-cache @Armor-test/grp-storage @Armor-test/squad-tooling
+*.php @Armor-test/dept-test @Armor-test/grp-api @Armor-test/squad-mobile
+*.lock @Armor-test/team-core @Armor-test/squad-research @Armor-test/team-logging
+*.kt @Armor-test/unit-governance @Armor-test/dept-release
+*.rs @Armor-test/grp-integration @Armor-test/squad-mobile @Armor-test/unit-cloud
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Dockerfile @Armor-test/devops @Armor-test/infra
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
